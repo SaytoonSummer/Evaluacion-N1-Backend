@@ -80,7 +80,7 @@ def registrar_consola():
     consola = Consola(nombre, version, marca, voltaje, precio, eficiencia)
     consolas.append(consola)
 
-    print("Consola registrada con éxito.")
+    print("Consola registrada con éxito.\n")
     print(consola.imprimirCaracteristicas())
 
 
@@ -98,7 +98,7 @@ def registrar_scooter():
 
     scooters.append(scooter)
 
-    print("Scooter registrado con éxito.")
+    print("Scooter registrado con éxito.\n")
     print(scooter.imprimirCaracteristicas())
 
 
@@ -113,7 +113,7 @@ def registrar_bicicleta():
 
     bicicletas.append(bicicleta)
 
-    print("Bicicleta registrada con éxito.")
+    print("Bicicleta registrada con éxito.\n")
     print(bicicleta.imprimirCaracteristicas())
 
 # Bloque de cotización de productos
