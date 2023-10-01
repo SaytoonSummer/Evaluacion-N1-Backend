@@ -109,7 +109,7 @@ def registrar_bicicleta():
     peso = obtener_float("Peso (kg)")
     precio = obtener_float("Precio")
 
-    bicicleta = Bicicleta(marca, aro, peso, precio)
+    bicicleta = Bicicleta(aro, peso, precio, marca)
 
     bicicletas.append(bicicleta)
 
