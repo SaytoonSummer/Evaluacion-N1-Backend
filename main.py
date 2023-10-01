@@ -21,8 +21,8 @@ consolas.extend([consola1, consola2])
 
 scooters = []
 scooter1 = Scooter("Xiaomi", "36V", 293999, "C", 10.0, "25 km/h", 12)
-scooter2 = Scooter("Segway Ninebot Max G30", "48V",
-                   499.99, "B", 15.0, "30 km/h", 18)
+scooter2 = Scooter("Segway", "48V",
+                   499099, "B", 15.0, "30 km/h", 18)
 scooters.extend([scooter1, scooter2])
 
 bicicletas = []
